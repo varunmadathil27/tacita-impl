@@ -1,5 +1,5 @@
-use crate::aggregate::EncryptionKey;
-use crate::crs::CRS;
+pub use crate::aggregate::EncryptionKey;
+pub use crate::crs::CRS;
 use crate::utils2::{ark_de, ark_se};
 use ark_ec::{
     pairing::{Pairing, PairingOutput},

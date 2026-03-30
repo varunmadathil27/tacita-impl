@@ -1,4 +1,4 @@
-use crate::crs::CRS;
+pub use crate::crs::CRS;
 use crate::encryption::Ciphertext;
 use crate::utils::{lagrange_poly, open_all_values};
 use ark_ec::{pairing::Pairing, AffineRepr, VariableBaseMSM};

@@ -1,5 +1,6 @@
 [workspace]
 members = [
     "hints",
-    "ste"
+    "ste",
+    "tacita"
 ]

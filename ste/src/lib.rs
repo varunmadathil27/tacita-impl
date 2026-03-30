@@ -1,8 +1,12 @@
+pub mod aggregation;
 pub mod encryption;
-pub mod decryption;
+pub mod final_decryption;
+pub mod partial_decryption;
+pub mod setup;
+
+pub mod aggregate;
 pub mod crs;
-pub mod aggregate; 
-pub mod setup; 
-pub mod utils; 
-pub mod utils2;
-pub mod bench;
+
+mod decryption;
+mod utils;
+mod utils2;
